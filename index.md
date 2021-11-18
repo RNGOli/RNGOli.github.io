@@ -14,7 +14,7 @@
     <button onclick ="getCoinsPS()"> Create a Magnet</button>
     <button onclick ="upgradeCoinsPS()"> Upgrade Magnets</button>
     <h7></h7>
-    <button onclick ="something"> Different type of button</button>
+    <button onclick ="something"> Nothing Yet</button>
 
     
 <script>
@@ -51,7 +51,7 @@ setInterval(function renderCoinsPS()
 
 setInterval(function renderUpgradeCoinsPS() 
 {
-    document.getElementById("upgradeCoinsPS").innerHTML = "Cost for upgrade: " + upgradeCoinsPS;
+    document.getElementById("upgradeCoinsPScost").innerHTML = "Cost for upgrade: " + upgradeCoinsPScost;
 })
 
 function getCoinsPS()
