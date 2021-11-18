@@ -11,10 +11,12 @@
     <center><h1>Electric Generator</h1></center>
     <center><h3 id="power"></h3></center>
     <center><h4 id="coinsPS"></h4></center>
+    <h5 id="coinsPScost"></h5>
+    <h6 id="upgradeCoinsPScost"></h6>
     <button onclick ="gainCoin()">Seperate Electrons</button>
     <button onclick ="getCoinsPS()"> Create a Magnet</button>
     <button onclick ="upgradeCoinsPS()"> Upgrade Magnets</button>
-    <h6></h6>
+    <h7></h7>
     <button onclick ="something"> Different type of button</button>
 
     
@@ -38,11 +40,21 @@ setInterval(function renderCoins()
 {
     document.getElementById("power").innerHTML = "Total Electricity: " + power + " " + unitType;
 })
+    
+setInterval(function renderCoinsPScost()
+    {
+        document.getElementById("coinsPScost").innerHTML = "Magnet Cost: " +  coinsPScost;
+    })
 
 
 setInterval(function renderCoinsPS() 
 {
     document.getElementById("coinsPS").innerHTML = unitType + " Generated per Second: " + Math.round(coinsPS * PSValue);
+})
+
+setInterval(function renderUpgradeCoinsPS() 
+{
+    document.getElementById("upgradeCoinsPS").innerHTML = "Cost for upgrade: " + upgradeCoinsPS;
 })
 
 function getCoinsPS()
