@@ -1,33 +1,21 @@
 <!DOCTYPE Html>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 
 <head>
     <title>Electric Generator</title>
     <style>
-.btn {
-  background-color: DodgerBlue;
-  border: faded;
-  color: black;
-  padding: 12px 16px;
-  font-size: 16px;
-  cursor: pointer;
-}
 
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;
-}
 </style>
 </head>
 <body>
     <center><h1>Electric Generator</h1></center>
     <center><h3 id="power"></h3></center>
     <center><h4 id="coinsPS"></h4></center>
-    <button onclick ="gainCoin()", class="btn">Seperate Electrons</button>
-    <button onclick ="getCoinsPS()", class="btn"> Create a Magnet</button>
-    <button onclick ="upgradeCoinsPS()", class="btn"> Upgrade Magnets</button>
+    <button onclick ="gainCoin()">Seperate Electrons</button>
+    <button onclick ="getCoinsPS()"> Create a Magnet</button>
+    <button onclick ="upgradeCoinsPS()"> Upgrade Magnets</button>
     <h6></h6>
-    <button onclick ="something", class="btn"> Different type of button</button>
+    <button onclick ="something"> Different type of button</button>
 
     
 <script>
