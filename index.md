@@ -62,10 +62,6 @@ function getCoinsPS()
         power -= coinsPScost;
         coinsPScost = (coinsPScost*1.05) - (coinsPScost*1.05)%1;
         }
-    else
-    {
-        alert("You need " + coinsPScost + " " + unitType);
-    }
 }
 
     
@@ -80,10 +76,6 @@ function upgradeCoinsPS()
             PSValue += 1;
             power -= upgradeCoinsPScost;
             upgradeCoinsPScost = (upgradeCoinsPScost * 1.5) - (upgradeCoinsPScost*1.5)%1;
-        }
-        else
-        {
-            alert("You need " + upgradeCoinsPScost + " " + unitType);
         }
     }
 
