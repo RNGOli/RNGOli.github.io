@@ -1,6 +1,3 @@
-<!DOCTYPE Html>
-
-
 <head>
     <title>Electric Generator</title>
     <style>
