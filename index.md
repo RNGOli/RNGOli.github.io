@@ -1,6 +1,6 @@
 <head>
     <title>Electric Generator</title>
-    <link rel="stylesheet" type="text/css" href="button_style.css">
+    <link rel="stylesheet" type="text/css" href="magic.css">
     <style>
 
 </style>
@@ -15,9 +15,7 @@
     <button onclick ="getCoinsPS()"> Create a Magnet</button>
     <button onclick ="upgradeCoinsPS()"> Upgrade Magnets</button>
     <h7></h7>
-    <button class = "button6" onclick ="something"> Nothing Yet</button>
-
-    
+    <button class = "button" id="new button" onclick ="something"> Nothing Yet</button>
 
 <script src="javascript.js"></script>
 </body>
