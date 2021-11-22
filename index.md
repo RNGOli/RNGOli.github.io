@@ -15,7 +15,7 @@
     <button onclick ="getCoinsPS()"> Create a Magnet</button>
     <button onclick ="upgradeCoinsPS()"> Upgrade Magnets</button>
     <h7></h7>
-    <button class = "button6" onclick ="something"> Nothing Yet</button>
+    <button href="stylesheet" class = "button6" onclick ="something"> Nothing Yet</button>
 
     
 <script>
