@@ -54,6 +54,6 @@ function upgradeCoinsPS()
         {
             PSValue += 1;
             power -= upgradeCoinsPScost;
-            upgradeCoinsPScost = (upgradeCoinsPScost * 1.5) - (upgradeCoinsPScost*1.5)%1;
+            upgradeCoinsPScost = (upgradeCoinsPScost * 1.25) - (upgradeCoinsPScost*1.25)%1;
         }
     }
