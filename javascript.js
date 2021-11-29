@@ -6,10 +6,12 @@ var coinsPScost = 20;
 var unitType = "Electrons";
 var PSValue = 1;
 var upgradeCoinsPScost = 50;
+var clickValue = 1;
+var upgradeClickValueCost = 30;
     
 function gainCoin() 
 {
-    power += Math.round(coinsPC * PSValue);
+    power += Math.round(coinsPC * clickValue);
 }
 
 setInterval(function renderCoins() 
@@ -56,4 +58,14 @@ function upgradeCoinsPS()
             power -= upgradeCoinsPScost;
             upgradeCoinsPScost = (upgradeCoinsPScost * 1.25) - (upgradeCoinsPScost*1.25)%1;
         }
+    }
+function upgradeClickValue()
+    {
+        if(power >= upgradeClickValueCost)
+        {
+            power -= upgradeClickValueCost;
+            clickValue += 1 + Math.round(clickValue * 0.1)
+            upgradeClickValueCost = (upgradeClickValueCost*1.10) - (upgradeClickValueCost*1.10)%1.
+        }
+
     }
