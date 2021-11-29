@@ -64,8 +64,8 @@ function upgradeClickValue()
         if(power >= upgradeClickValueCost)
         {
             power -= upgradeClickValueCost;
-            clickValue += 1 + Math.round(clickValue * 0.1)
-            upgradeClickValueCost = (upgradeClickValueCost*1.10) - (upgradeClickValueCost*1.10)%1.
+            clickValue += 1 + ((clickValue * 0.1) - (clickValue * 0.1)%1);
+            upgradeClickValueCost = (upgradeClickValueCost*1.10) - (upgradeClickValueCost*1.10)%1;
         }
 
     }
