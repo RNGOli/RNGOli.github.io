@@ -35,7 +35,7 @@ setInterval(function renderUpgradeCoinsPS()
     document.getElementById("upgradeCoinsPScost").innerHTML = "Cost for upgrade: " + upgradeCoinsPScost;
 })
 
-setInterval(function renderUpgradeClickValueCost() 
+setInterval(function renderUpgradeClickValue() 
 {
     document.getElementById("upgradeClickValueCost").innerHTML = "Cost for click upgrade: " + upgradeClickValueCost;
 })
