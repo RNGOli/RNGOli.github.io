@@ -70,7 +70,7 @@ function upgradeClickValue()
         {
             power -= upgradeClickValueCost;
             clickValue += 1 + ((clickValue * 0.175) - (clickValue * 0.175)%1);
-            upgradeClickValueCost = (upgradeClickValueCost*1.10) - (upgradeClickValueCost*1.10)%1;
+            upgradeClickValueCost = (upgradeClickValueCost*1.175) - (upgradeClickValueCost*1.175)%1;
         }
 
     }
